@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Классификация текста</title>
+        <link rel="stylesheet" href="/static/main.css" type="text/css" />
+        <script src="/static/main.js"></script>
+    </head>
+
+    <body>
+        <!-- <button id="theme-toggle">Toggle Theme</button> -->
+        <div class="container">
+            <h1>Классификацмя функционального стиля текста</h1>
+            <div class="input-group">
+                <label for="input-text">Введите текст:</label>
+                <span id="error" class="input-error" style="display: none;" >Напишите текст для классификации, объёмом не менее 150 символов.</span>
+                <textarea id="input-text" class="processed_text" name="input-text"></textarea>
+            </div>
+            <button id="btn-send" class="btn">Отправить</button>
+            <div id="result" class="result" style="display: none;">
+                Предположительно, функциональная стилистика этого текста: 
+                <span id="result-text" class="result-text"></span>
+            </div>
+        </div>
+    </body>
+
+</html>
